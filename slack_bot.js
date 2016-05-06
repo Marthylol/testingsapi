@@ -44,8 +44,8 @@ This bot demonstrates many of the core features of Botkit:
 */
 
 var cleverbot = require("cleverbot.io"),  
-cleverbot = new cleverbot('IUigPGCMT2Un7vrU', 'yA3Xhtdsh4CMGEjMw1Q18ZnHVYBhLQBP');  
-cleverbot.setNick("Michael Frumin");  
+cleverbot = new cleverbot('xxx', 'xxx');  
+cleverbot.setNick("Smart Ass");  
 cleverbot.create(function (err, session) {  
     if (err) {
         console.log('cleverbot create fail.');
@@ -63,10 +63,10 @@ var controller = Botkit.slackbot({
 
 var bot = controller.spawn({
 	// 8dreamteam
-    //token: 'xoxb-34953996113-1rYZmjbCnhOXFSXernJcqezm'
+    //token: 'xxx'
 	
 	// 8dteam-test
-	token: 'xoxb-39213842278-msnQ6m47qsBk92D62ybI347c'
+	token: 'xxx'
 }).startRTM();
 
 // contains all the commands that the bot can hear and respond to
